@@ -38,5 +38,4 @@ test('renders non-empty message when "success" prop is true', () => {
 test('does not throw warning with expected props', () => {
   const expectedProps = { success: false };
   checkProps(Congrats, expectedProps);
-
 })
